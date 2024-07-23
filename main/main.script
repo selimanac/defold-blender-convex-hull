@@ -1,0 +1,28 @@
+function init(self)
+	msg.post(".", "acquire_input_focus")
+	msg.post("@render:", "use_camera_projection")
+	msg.post("camera", "acquire_camera_focus")
+
+
+
+	-- position directional light
+	self.light = vmath.vector4(0, 0, go.get_position().z + 1, 0)
+	go.set("/cone#cone", "light", self.light)
+	go.set("/go5#monkey", "light", self.light)
+	go.set("/ground#cube", "light", self.light)
+	go.set("/ico#ico", "light", self.light)
+	go.set("/pyramid#pyramid", "light", self.light)
+	go.set("/tetrahedron#tetrahedron", "light", self.light)
+end
+
+function on_input(self, action_id, action)
+	-- move directional light based on input
+	self.light.x = 2 * ((action.x - 480) / 480)
+	self.light.y = 2 * ((action.y - 320) / 320)
+	go.set("/cone#cone", "light", self.light)
+	go.set("/go5#monkey", "light", self.light)
+	go.set("/ground#cube", "light", self.light)
+	go.set("/ico#ico", "light", self.light)
+	go.set("/pyramid#pyramid", "light", self.light)
+	go.set("/tetrahedron#tetrahedron", "light", self.light)
+end

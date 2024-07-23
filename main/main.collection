@@ -1,0 +1,215 @@
+name: "main"
+scale_along_z: 0
+embedded_instances {
+  id: "main"
+  data: "components {\n"
+  "  id: \"main\"\n"
+  "  component: \"/main/main.script\"\n"
+  "}\n"
+  ""
+}
+embedded_instances {
+  id: "camera"
+  data: "embedded_components {\n"
+  "  id: \"camera\"\n"
+  "  type: \"camera\"\n"
+  "  data: \"aspect_ratio: 1.0\\n"
+  "fov: 0.7854\\n"
+  "near_z: 0.1\\n"
+  "far_z: 1000.0\\n"
+  "auto_aspect_ratio: 1\\n"
+  "\"\n"
+  "}\n"
+  ""
+  position {
+    x: -11.0
+    y: 2.0
+    z: 15.0
+  }
+  rotation {
+    x: -0.060572412
+    y: -0.24251561
+    z: 0.01517324
+    w: 0.96813583
+  }
+}
+embedded_instances {
+  id: "cone"
+  data: "components {\n"
+  "  id: \"cone\"\n"
+  "  component: \"/assets/models/cone.model\"\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"collisionobject\"\n"
+  "  type: \"collisionobject\"\n"
+  "  data: \"collision_shape: \\\"/assets/models/cone.convexshape\\\"\\n"
+  "type: COLLISION_OBJECT_TYPE_DYNAMIC\\n"
+  "mass: 1.0\\n"
+  "friction: 0.1\\n"
+  "restitution: 0.5\\n"
+  "group: \\\"default\\\"\\n"
+  "mask: \\\"default\\\"\\n"
+  "\"\n"
+  "}\n"
+  ""
+  rotation {
+    x: 0.6907466
+    y: 2.1635656E-14
+    z: -3.8087206E-14
+    w: 0.72309685
+  }
+}
+embedded_instances {
+  id: "ground"
+  data: "components {\n"
+  "  id: \"cube\"\n"
+  "  component: \"/assets/models/cube.model\"\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"collisionobject\"\n"
+  "  type: \"collisionobject\"\n"
+  "  data: \"type: COLLISION_OBJECT_TYPE_STATIC\\n"
+  "mass: 0.0\\n"
+  "friction: 0.1\\n"
+  "restitution: 0.5\\n"
+  "group: \\\"default\\\"\\n"
+  "mask: \\\"default\\\"\\n"
+  "embedded_collision_shape {\\n"
+  "  shapes {\\n"
+  "    shape_type: TYPE_BOX\\n"
+  "    position {\\n"
+  "    }\\n"
+  "    rotation {\\n"
+  "    }\\n"
+  "    index: 0\\n"
+  "    count: 3\\n"
+  "  }\\n"
+  "  data: 25.0\\n"
+  "  data: 0.5\\n"
+  "  data: 25.0\\n"
+  "}\\n"
+  "\"\n"
+  "}\n"
+  ""
+  position {
+    y: -4.0
+  }
+  scale3 {
+    x: 50.0
+    z: 50.0
+  }
+}
+embedded_instances {
+  id: "pyramid"
+  data: "components {\n"
+  "  id: \"pyramid\"\n"
+  "  component: \"/assets/models/pyramid.model\"\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"collisionobject\"\n"
+  "  type: \"collisionobject\"\n"
+  "  data: \"collision_shape: \\\"/assets/models/pyramid.convexshape\\\"\\n"
+  "type: COLLISION_OBJECT_TYPE_DYNAMIC\\n"
+  "mass: 1.0\\n"
+  "friction: 0.1\\n"
+  "restitution: 0.5\\n"
+  "group: \\\"default\\\"\\n"
+  "mask: \\\"default\\\"\\n"
+  "\"\n"
+  "}\n"
+  ""
+  position {
+    x: -5.0
+  }
+  rotation {
+    x: -0.29452795
+    y: -0.3674315
+    z: -0.23781328
+    w: 0.84952474
+  }
+}
+embedded_instances {
+  id: "ico"
+  data: "components {\n"
+  "  id: \"ico\"\n"
+  "  component: \"/assets/models/ico.model\"\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"collisionobject\"\n"
+  "  type: \"collisionobject\"\n"
+  "  data: \"collision_shape: \\\"/assets/models/ico.convexshape\\\"\\n"
+  "type: COLLISION_OBJECT_TYPE_DYNAMIC\\n"
+  "mass: 1.0\\n"
+  "friction: 0.1\\n"
+  "restitution: 0.5\\n"
+  "group: \\\"default\\\"\\n"
+  "mask: \\\"default\\\"\\n"
+  "\"\n"
+  "}\n"
+  ""
+  position {
+    x: 4.0
+    y: 3.0
+  }
+  rotation {
+    z: 0.14378694
+    w: 0.98960865
+  }
+}
+embedded_instances {
+  id: "tetrahedron"
+  data: "components {\n"
+  "  id: \"tetrahedron\"\n"
+  "  component: \"/assets/models/tetrahedron.model\"\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"collisionobject\"\n"
+  "  type: \"collisionobject\"\n"
+  "  data: \"collision_shape: \\\"/assets/models/tetrahedron.convexshape\\\"\\n"
+  "type: COLLISION_OBJECT_TYPE_DYNAMIC\\n"
+  "mass: 1.0\\n"
+  "friction: 0.1\\n"
+  "restitution: 0.5\\n"
+  "group: \\\"default\\\"\\n"
+  "mask: \\\"default\\\"\\n"
+  "\"\n"
+  "}\n"
+  ""
+  position {
+    x: -8.0
+    y: 4.0
+  }
+}
+embedded_instances {
+  id: "go5"
+  data: "components {\n"
+  "  id: \"monkey\"\n"
+  "  component: \"/assets/models/monkey.model\"\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"collisionobject\"\n"
+  "  type: \"collisionobject\"\n"
+  "  data: \"collision_shape: \\\"/blender/file_name.convexshape\\\"\\n"
+  "type: COLLISION_OBJECT_TYPE_DYNAMIC\\n"
+  "mass: 1.0\\n"
+  "friction: 0.1\\n"
+  "restitution: 0.5\\n"
+  "group: \\\"default\\\"\\n"
+  "mask: \\\"default\\\"\\n"
+  "\"\n"
+  "}\n"
+  ""
+  position {
+    y: 4.0
+    z: -6.0
+  }
+  rotation {
+    x: -0.75498825
+    w: 0.6557383
+  }
+  scale3 {
+    x: 2.0
+    y: 2.0
+    z: 2.0
+  }
+}

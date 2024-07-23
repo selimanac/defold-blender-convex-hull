@@ -1,0 +1,10 @@
+mesh: "/assets/models/tetrahedron.glb"
+name: "wefwef"
+materials {
+  name: "default"
+  material: "/builtins/materials/model.material"
+  textures {
+    sampler: "tex0"
+    texture: "/assets/images/brown.png"
+  }
+}
