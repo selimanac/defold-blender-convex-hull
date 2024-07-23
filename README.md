@@ -1,7 +1,7 @@
 # Creating Convex Hull points in Blender
 
 This small script is tested with Blender 4.1.1. It might not work any older versions.  
-You can find example Blender project and Python Scripts in the `blender` folder of this repo.
+You can find example Blender project and Python Scripts in the `blender` [folder](https://github.com/selimanac/defold-blender-convexhull/tree/main/blender) of this repo.
 
 
 ### Create Convex Hull in Blender:
@@ -20,14 +20,14 @@ You can find example Blender project and Python Scripts in the `blender` folder 
 
 ### Export Convex Hull Points Using Python Script:
 
-- Go to the Scripting tab or open a new Text Editor in Blender.  
+- Go to the Scripting tab or open a new `Text Editor` in Blender.  
 
 ![Text Editor](/.github/4.jpg?raw=true)
 
 
-- Copy and paste the  script into the scripting editor.   
-- Adjust the export_path variable to the desired file path where you want to save the exported convex hull data.    
-- Click the Run Script button in the scripting editor.  
+- Copy and paste [the script](https://github.com/selimanac/defold-blender-convexhull/blob/main/blender/convexshape.py) into the scripting editor.   
+- Adjust the `export_path` variable to the desired file path where you want to save the exported convex hull data.    
+- Click the `Run Script button in the scripting editor.  
 
 ![Run Scrip](/.github/5.jpg?raw=true)
 
