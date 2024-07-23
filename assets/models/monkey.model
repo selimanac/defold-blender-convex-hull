@@ -5,6 +5,6 @@ materials {
   material: "/builtins/materials/model.material"
   textures {
     sampler: "tex0"
-    texture: "/assets/images/green.png"
+    texture: "/assets/images/brown.png"
   }
 }

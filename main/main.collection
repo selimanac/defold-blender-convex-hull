@@ -52,11 +52,14 @@ embedded_instances {
   "\"\n"
   "}\n"
   ""
+  position {
+    y: 2.0
+  }
   rotation {
-    x: 0.6907466
-    y: 2.1635656E-14
-    z: -3.8087206E-14
-    w: 0.72309685
+    x: 0.6363885
+    y: 0.054941315
+    z: -0.13886939
+    w: 0.7567736
   }
 }
 embedded_instances {
@@ -93,6 +96,7 @@ embedded_instances {
   ""
   position {
     y: -4.0
+    z: -5.0
   }
   scale3 {
     x: 50.0
@@ -181,7 +185,7 @@ embedded_instances {
   }
 }
 embedded_instances {
-  id: "go5"
+  id: "monkey"
   data: "components {\n"
   "  id: \"monkey\"\n"
   "  component: \"/assets/models/monkey.model\"\n"
@@ -201,15 +205,15 @@ embedded_instances {
   ""
   position {
     y: 4.0
-    z: -6.0
+    z: -8.0
   }
   rotation {
     x: -0.75498825
     w: 0.6557383
   }
   scale3 {
-    x: 2.0
-    y: 2.0
-    z: 2.0
+    x: 4.0
+    y: 4.0
+    z: 4.0
   }
 }
