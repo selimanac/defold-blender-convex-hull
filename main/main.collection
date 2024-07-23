@@ -189,7 +189,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"collisionobject\"\n"
   "  type: \"collisionobject\"\n"
-  "  data: \"collision_shape: \\\"/blender/file_name.convexshape\\\"\\n"
+  "  data: \"collision_shape: \\\"/assets/models/monkey.convexshape\\\"\\n"
   "type: COLLISION_OBJECT_TYPE_DYNAMIC\\n"
   "mass: 1.0\\n"
   "friction: 0.1\\n"
