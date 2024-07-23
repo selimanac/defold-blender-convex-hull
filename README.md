@@ -1,7 +1,8 @@
-# Creating Convex Hull points in Blender
+# Creating Convex Hull in Blender
 
 This small script is tested with Blender 4.1.1. It might not work any older versions.  
-You can find example Blender project and Python Scripts in the `blender` [folder](https://github.com/selimanac/defold-blender-convexhull/tree/main/blender) of this repo.
+You can find the example Blender project and Python Scripts in the `blender` [folder](https://github.com/selimanac/defold-blender-convexhull/tree/main/blender) of this repo.  
+Defold project contains example [Convex hull](https://defold.com/manuals/physics-shapes/#convex-hull-shape) shapes.  
 
 
 ### Create Convex Hull in Blender:
