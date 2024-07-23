@@ -27,7 +27,8 @@ Defold project contains example [Convex hull](https://defold.com/manuals/physics
 
 
 - Copy and paste [the script](https://github.com/selimanac/defold-blender-convexhull/blob/main/blender/convexshape.py) into the scripting editor.   
-- Adjust the `export_path` variable to the desired file path where you want to save the exported convex hull data.    
+- Adjust the `export_path` variable to the desired file path where you want to save the exported convex hull data.   
+- Ensure the correct object is **selected**.     
 - Click the `Run Script button in the scripting editor.  
 
 ![Run Scrip](/.github/5.jpg?raw=true)
