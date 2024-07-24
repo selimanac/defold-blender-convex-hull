@@ -9,7 +9,7 @@ Defold project contains example [Convex hull](https://defold.com/manuals/physics
 - Load your model and prepare it for [importing Defold](https://defold.com/manuals/importing-models/#using-a-model).   
 - If you want to match the transform of your model and convex hull, disable the `+Y Up` option in the **Transform** section of the export window.
 
-![+Y Up](/.github/6.jpg?raw=true)
+![+Y Up](/.github/6.png?raw=true)
 
 - Select the model/object and switch to `Edit Mode` (`Tab`).  
 
